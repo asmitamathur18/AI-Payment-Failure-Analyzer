@@ -1,25 +1,29 @@
-# 💳 AI Payment Failure Analyzer
+# AI Payment Failure Analyzer
 
-An AI-powered payment transaction analysis system built using **Python, Streamlit, and Google Gemini AI**.
+An AI-powered web application that analyzes failed payment transactions using Google Gemini AI. The system identifies possible root causes, assesses risk levels, and provides actionable recommendations to help troubleshoot payment failures.
 
-The application analyzes failed payment transactions, identifies the possible root cause, determines the risk level, and provides intelligent suggestions for resolving the issue.
+---
 
 ## Features
 
 - Upload payment transaction CSV files
 - Detect failed payment transactions
-- AI-powered root cause analysis using Gemini
-- Risk level identification
-- Suggested fixes for each failed transaction
-- Dashboard with transaction statistics
+- AI-powered root cause analysis
+- Risk level assessment
+- Intelligent recommendations
+- Interactive dashboard
 - Downloadable CSV report
+
+---
 
 ## Tech Stack
 
 - Python
 - Streamlit
-- Pandas
 - Google Gemini API
+- Pandas
+
+---
 
 ## Project Structure
 
@@ -32,18 +36,38 @@ AI_Payment_Failure_Analyzer/
 └── README.md
 ```
 
+---
+
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
+Run the application
 
 ```bash
 streamlit run app.py
 ```
 
+---
+
 ## Sample Dataset
 
-The project includes a sample payment transaction CSV containing successful and failed payment records for demonstration.
+The project includes a sample payment transaction dataset containing successful and failed transactions for demonstration purposes.
+
+---
+
+## Future Improvements
+
+- Fraud detection integration
+- Real-time payment monitoring
+- Payment gateway analytics
+- Multi-bank transaction support
+- Interactive dashboards with charts
+
+---
+
+## Author
+
+Asmita Mathur
