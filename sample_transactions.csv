@@ -1,0 +1,11 @@
+Transaction_ID,Customer_Name,Amount,Payment_Method,Bank,Status,Failure_Reason
+TXN1001,Rahul Sharma,2500,Credit Card,HDFC,Success,-
+TXN1002,Priya Verma,1800,UPI,SBI,Success,-
+TXN1003,Aman Gupta,3200,Debit Card,ICICI,Failed,Insufficient Balance
+TXN1004,Neha Reddy,950,UPI,Axis,Success,-
+TXN1005,Rohan Mehta,5400,Credit Card,HDFC,Failed,Payment Gateway Timeout
+TXN1006,Ananya Singh,760,Net Banking,SBI,Success,-
+TXN1007,Karan Patel,4300,Debit Card,ICICI,Failed,Bank Server Unavailable
+TXN1008,Sneha Iyer,1200,UPI,Kotak,Success,-
+TXN1009,Arjun Rao,8900,Credit Card,Axis,Failed,Suspicious Transaction Detected
+TXN1010,Meera Joshi,670,UPI,HDFC,Success,-
